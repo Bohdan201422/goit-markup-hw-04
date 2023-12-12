@@ -73,12 +73,32 @@ body {
   letter-spacing: 0.32px;
   text-decoration: none;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 27px;
+  position: relative;
 }
 
 .link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
+}
+
+.link-nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  opacity: 0;
+  background-color: #404bbf;
+}
+
+.link-nav:hover::after,
+.link-nav:focus::after,
+.link-nav.current::after {
+  color: #404bbf;
+  opacity: 1;
+  border-radius: 2px;
 }
 
 .contacts {
@@ -123,6 +143,9 @@ body {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .head .conteiner {
