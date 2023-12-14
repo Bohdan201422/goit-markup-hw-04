@@ -316,6 +316,15 @@ body {
   padding-bottom: 32px;
 }
 
+.team-div-svg {
+  display: flex;
+}
+
+.team-svg {
+  width: 16px;
+  height: 16px;
+}
+
 .team-conteiner-title {
   color: #2e2f42;
   text-align: center;
