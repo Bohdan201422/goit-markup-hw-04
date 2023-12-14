@@ -318,6 +318,8 @@ body {
 
 .team-div-svg {
   display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 
 .team-svg {
