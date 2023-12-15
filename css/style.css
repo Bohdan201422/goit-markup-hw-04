@@ -477,7 +477,7 @@ width: 264px;
 }
 
 .footer {
-  display: flex;
+  
   flex-shrink: 0;
   background: #2e2f42;
   padding-bottom: 100px;
@@ -485,11 +485,13 @@ width: 264px;
 }
 
 .footer .conteiner {
+  display: flex;
   flex-direction: column;
+  align-items: baseline
 }
 
-.footer .container {
-  display: block;
+.logo-container{
+  margin-right: 120px
 }
 
 .footer-logo {
