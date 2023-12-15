@@ -484,7 +484,7 @@ width: 264px;
   padding-top: 100px;
 }
 
-.footer .conteiner {
+.footer > div {
   display: flex;
   align-items: baseline;
 }
