@@ -8,13 +8,14 @@ body {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:  2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .header .container {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-  box-shadow:  2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-head {
@@ -65,8 +66,8 @@ body {
 }
 
 .link-nav {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
+  color: #404bbf;
+    font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
