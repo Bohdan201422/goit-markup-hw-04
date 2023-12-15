@@ -507,7 +507,6 @@ width: 264px;
   margin-left: 156px;
   margin-bottom: 16px;
   display: inline-block;
-  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo-span {
@@ -563,6 +562,8 @@ width: 264px;
   padding: 8px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .footer-a:hover,
