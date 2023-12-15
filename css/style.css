@@ -234,8 +234,10 @@ body {
 }
 
 .advent-div {
-  text-align: center;
-  width: 264px;
+display: flex;
+justify-content: center;
+align-items: center;  
+width: 264px;
   height: 112px;
   border-radius: 4px;
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
@@ -244,9 +246,7 @@ body {
 }
 
 .advent-svg {
-  margin-top: 24px;
-  width: 64px;
-  height: 64px;
+
 }
 .advent-list-title {
   color: #2e2f42;
