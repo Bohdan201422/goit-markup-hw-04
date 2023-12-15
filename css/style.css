@@ -486,7 +486,6 @@ width: 264px;
 
 .footer .conteiner {
   display: flex;
-  flex-direction: column;
   align-items: baseline;
 }
 
@@ -534,7 +533,6 @@ width: 264px;
 
 .footer-div {
   flex-direction: column;
-  margin-left: 120px;
 }
 
 .footer-social {
