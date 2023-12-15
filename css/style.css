@@ -145,6 +145,7 @@ body {
     url(/images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
@@ -197,6 +198,7 @@ body {
   display: block;
   transition-property: background;
   transition-duration: 250ms;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
